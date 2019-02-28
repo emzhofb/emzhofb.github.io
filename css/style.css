@@ -8,7 +8,7 @@
   background-color: #f1f1f1;
   padding: 20px 10px;
 }
-  
+
   /* Style the header links */
 .header a {
   float: left;
@@ -200,5 +200,109 @@ body {
 
 #myDIV {
   margin: 10px;
+  font-size: 50px;
+}
+
+.btn {
+  position: relative;
+  background-color: #4CAF50;
+  border: none;
+  font-size: 20px;
+  color: #FFFFFF;
+  padding: 20px;
+  width: 150px;
+  height: 57px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.btn:after {
+  content: "";
+  background: #90EE90;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.btn:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding: 10px; /* Add some padding */
+  color: white; /* White text color */
+}
+
+.js {width: 80%; background-color: #4CAF50;} /* Green */
+.njs {width: 70%; background-color: #2196F3;} /* Blue */
+.rjs {width: 60%; background-color: #f44336;} /* Red */
+.ejs {width: 60%; background-color: #808080;} /* Dark Grey */
+.sjs {width: 60%; background-color: #c784d4;} /* Dark Grey */
+
+.skill {
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.mySkill {
   font-size: 40px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.skillName {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.containerSkill {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
 }
