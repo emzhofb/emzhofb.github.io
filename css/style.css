@@ -246,11 +246,11 @@ body {
   color: white; /* White text color */
 }
 
-.js {width: 80%; background-color: #4CAF50;} /* Green */
-.njs {width: 70%; background-color: #2196F3;} /* Blue */
-.rjs {width: 60%; background-color: #f44336;} /* Red */
-.ejs {width: 60%; background-color: #808080;} /* Dark Grey */
-.sjs {width: 60%; background-color: #c784d4;} /* Dark Grey */
+.js {width: 40%; background-color: #4CAF50;} /* Green */
+.njs {width: 20%; background-color: #2196F3;} /* Blue */
+.rjs {width: 20%; background-color: #f44336;} /* Red */
+.ejs {width: 20%; background-color: #808080;} /* Dark Grey */
+.sjs {width: 20%; background-color: #c784d4;} /* Dark Grey */
 
 .skill {
   background-color: white;
@@ -292,7 +292,7 @@ body {
 
 /* Facebook */
 .fa-instagram {
-  background: #125688;
+  background: #eb4924;
   color: white;
 }
 
@@ -304,5 +304,25 @@ body {
 
 .fa-facebook {
   background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-medium {
+  background: #00aff0;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
   color: white;
 }
