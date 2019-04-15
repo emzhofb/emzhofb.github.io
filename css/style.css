@@ -248,11 +248,11 @@ body {
 }
 
 .js {
-  width: 30%;
+  width: 40%;
   background-color: #4caf50;
 } /* Green */
 .njs {
-  width: 20%;
+  width: 30%;
   background-color: #2196f3;
 } /* Blue */
 .rjs {
@@ -260,7 +260,7 @@ body {
   background-color: #f44336;
 } /* Red */
 .rn {
-  width: 10%;
+  width: 20%;
   background-color: #808080;
 } /* Dark Grey */
 
