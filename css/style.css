@@ -9,36 +9,36 @@
   padding: 20px 10px;
 }
 
-  /* Style the header links */
+/* Style the header links */
 .header a {
   float: left;
   color: black;
   text-align: center;
   padding: 12px;
   text-decoration: none;
-  font-size: 18px; 
+  font-size: 18px;
   line-height: 25px;
   border-radius: 4px;
 }
 
-  /* Change the background color on mouse-over */
+/* Change the background color on mouse-over */
 .header a:hover {
   background-color: #ddd;
   color: black;
 }
-  
-  /* Style the active/current link*/
+
+/* Style the active/current link*/
 .header a.active {
   background-color: dodgerblue;
   color: white;
 }
-  
-  /* Float the link section to the right */
+
+/* Float the link section to the right */
 .header-right {
   float: right;
 }
-  
-  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */ 
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
 @media screen and (max-width: 500px) {
   .header a {
     float: none;
@@ -69,7 +69,7 @@ body {
 
 /* The actual timeline (the vertical ruler) */
 .timeline::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 6px;
   background-color: white;
@@ -89,13 +89,13 @@ body {
 
 /* The circles on the timeline */
 .container::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 25px;
   height: 25px;
   right: -17px;
   background-color: white;
-  border: 4px solid #FF9F55;
+  border: 4px solid #ff9f55;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
@@ -154,19 +154,19 @@ body {
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
-/* Place the timelime to the left */
+  /* Place the timelime to the left */
   .timeline::after {
     left: 31px;
   }
 
-/* Full-width containers */
+  /* Full-width containers */
   .container {
     width: 100%;
     padding-left: 70px;
     padding-right: 25px;
   }
 
-/* Make sure that all arrows are pointing leftwards */
+  /* Make sure that all arrows are pointing leftwards */
   .container::before {
     left: 60px;
     border: medium solid white;
@@ -174,12 +174,13 @@ body {
     border-color: transparent white transparent transparent;
   }
 
-/* Make sure all circles are at the same spot */
-  .left::after, .right::after {
+  /* Make sure all circles are at the same spot */
+  .left::after,
+  .right::after {
     left: 15px;
   }
 
-/* Make all right containers behave like the left ones */
+  /* Make all right containers behave like the left ones */
   .right {
     left: 0%;
   }
@@ -205,10 +206,10 @@ body {
 
 .btn {
   position: relative;
-  background-color: #4CAF50;
+  background-color: #4caf50;
   border: none;
   font-size: 20px;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 20px;
   width: 150px;
   height: 57px;
@@ -222,22 +223,22 @@ body {
 
 .btn:after {
   content: "";
-  background: #90EE90;
+  background: #90ee90;
   display: block;
   position: absolute;
   padding-top: 300%;
   padding-left: 350%;
-  margin-left: -20px!important;
+  margin-left: -20px !important;
   margin-top: -120%;
   opacity: 0;
-  transition: all 0.8s
+  transition: all 0.8s;
 }
 
 .btn:active:after {
   padding: 0;
   margin: 0;
   opacity: 1;
-  transition: 0s
+  transition: 0s;
 }
 
 .skills {
@@ -246,11 +247,22 @@ body {
   color: white; /* White text color */
 }
 
-.js {width: 40%; background-color: #4CAF50;} /* Green */
-.njs {width: 20%; background-color: #2196F3;} /* Blue */
-.rjs {width: 20%; background-color: #f44336;} /* Red */
-.ejs {width: 20%; background-color: #808080;} /* Dark Grey */
-.sjs {width: 20%; background-color: #c784d4;} /* Dark Grey */
+.js {
+  width: 30%;
+  background-color: #4caf50;
+} /* Green */
+.njs {
+  width: 20%;
+  background-color: #2196f3;
+} /* Blue */
+.rjs {
+  width: 20%;
+  background-color: #f44336;
+} /* Red */
+.rn {
+  width: 20%;
+  background-color: #808080;
+} /* Dark Grey */
 
 .skill {
   background-color: white;
@@ -298,12 +310,12 @@ body {
 
 /* Twitter */
 .fa-twitter {
-  background: #55ACEE;
+  background: #55acee;
   color: white;
 }
 
 .fa-facebook {
-  background: #3B5998;
+  background: #3b5998;
   color: white;
 }
 
