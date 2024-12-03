@@ -69,8 +69,7 @@
 						<li><a href="#" data-nav-section="skills">Skills</a></li>
 						<li><a href="#" data-nav-section="education">Education</a></li>
 						<li><a href="#" data-nav-section="experience">Experience</a></li>
-						<!-- <li><a href="#" data-nav-section="work">Work</a></li>
-						<li><a href="#" data-nav-section="blog">Blog</a></li> -->
+						<li><a href="#" data-nav-section="work">Portfolio</a></li>
 						<li><a href="#" data-nav-section="contact">Contact</a></li>
 					</ul>
 				</div>
@@ -241,7 +240,7 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
               <p>I specialize in backend development, API development, database management, and DevOps practices. I am skilled in using various programming languages and frameworks to build scalable applications and maintain smooth system operations. I also possess a strong ability to collaborate effectively with teams, prioritize tasks, and solve complex problems.</p>
             </div>
             <!-- Left column: Technical Skills -->
-            <div class="col-md-6">
+            <div class="col-md-6 animate-box"  data-animate-effect="fadeInLeft">
               <h3>Technical Skills</h3>
               <table class="skills-table">
                 <thead>
@@ -296,7 +295,7 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
             </div>
             
             <!-- Right column: Soft Skills -->
-            <div class="col-md-6">
+            <div class="col-md-6 animate-box"  data-animate-effect="fadeInLeft">
               <h3>Soft Skills</h3>
               <table class="skills-table">
                 <thead>
@@ -443,7 +442,7 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 				</div>
 			</section>
 
-			<!-- <section class="colorlib-work" data-section="work" id="work-section">
+			<section class="colorlib-work" data-section="work" id="work-section">
 				<div class="colorlib-narrow-content">
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
@@ -451,158 +450,39 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 							<h2 class="colorlib-heading animate-box">Recent Work</h2>
 						</div>
 					</div>
-					<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-						<div class="col-md-12">
-							<p class="work-menu"><span><a href="#" class="active">Graphic Design</a></span> <span><a href="#">Web Design</a></span> <span><a href="#">Software</a></span> <span><a href="#">Apps</a></span></p>
-						</div>
-					</div>
 					<div class="row">
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url(images/img-1.jpg);">
+						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+							<div class="project" id="imageSlideNotification" style="background-image: url(images/notification-1.png);">
 								<div class="desc">
 									<div class="con">
-										<h3><a href="work.html">Work 01</a></h3>
+										<h3>HR Portal - Notification</h3>
 										<span>Website</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
 									</div>
 								</div>
 							</div>
+							<button class="icon-arrow-left" id="prevImageNotification" style="position: absolute; top: 50%; left: 10px; transform: translateY(-50%); z-index: 10; background-color: transparent; border: none; width: 50px; height: 50px; font-size: 30px; color: white;"></button>
+							<button class="icon-arrow-right" id="nextImageNotification" style="position: absolute; top: 50%; right: 10px; transform: translateY(-50%); z-index: 10; background-color: transparent; border: none; width: 50px; height: 50px; font-size: 30px; color: white;"></button>
 						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="project" style="background-image: url(images/img-2.jpg);">
+						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+							<div class="project" id="imageSlideCredit" style="background-image: url(images/credit-2.png);">
 								<div class="desc">
 									<div class="con">
-										<h3><a href="work.html">Work 02</a></h3>
-										<span>Animation</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
+										<h3>Dashboard - Credit Note</h3>
+										<span>Website</span>
 									</div>
 								</div>
 							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInTop">
-							<div class="project" style="background-image: url(images/img-3.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 03</a></h3>
-										<span>Illustration</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInBottom">
-							<div class="project" style="background-image: url(images/img-4.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 04</a></h3>
-										<span>Application</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url(images/img-5.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 05</a></h3>
-										<span>Graphic, Logo</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="project" style="background-image: url(images/img-6.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 06</a></h3>
-										<span>Web Design</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
+							<button class="icon-arrow-left" id="prevImageCredit" style="position: absolute; top: 50%; left: 10px; transform: translateY(-50%); z-index: 10; background-color: transparent; border: none; width: 50px; height: 50px; font-size: 30px; color: white;"></button>
+							<button class="icon-arrow-right" id="nextImageCredit" style="position: absolute; top: 50%; right: 10px; transform: translateY(-50%); z-index: 10; background-color: transparent; border: none; width: 50px; height: 50px; font-size: 30px; color: white;"></button>
 						</div>
 					</div>
-					<div class="row">
+					<!-- <div class="row">
 						<div class="col-md-12 animate-box">
 							<p><a href="#" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>
 						</div>
-					</div>
+					</div> -->
 				</div>
 			</section>
-
-			<section class="colorlib-blog" data-section="blog">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Read</span>
-							<h2 class="colorlib-heading">Recent Blog</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images/blog-1.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-								<div class="desc">
-									<span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="blog.html">Renovating National Gallery</a></h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images/blog-2.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-								<div class="desc">
-									<span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="blog.html">Wordpress for a Beginner</a></h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images/blog-3.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-								<div class="desc">
-									<span><small>April 14, 2018 </small> | <small> Inspiration </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="blog.html">Make website from scratch</a></h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12 animate-box">
-							<p><a href="#" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>
-						</div>
-					</div>
-				</div>
-			</section> -->
 
 			<section class="colorlib-contact" data-section="contact"  id="contact-section">
 				<div class="colorlib-narrow-content">
@@ -676,6 +556,68 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 	
 	<!-- MAIN JS -->
 	<script src="js/main.js"></script>
+
+	<script>
+    // List of image URLs for sliding
+    const imagesNotifications = [
+			'images/notification-1.png',
+			'images/notification-2.png',
+			'images/notification-3.png',
+    ];
+    
+    let currentImageIndexNotification = 0; // Start with the first image
+    
+    // Update background image function
+    function updateBackgroundImageNotification() {
+			const projectElement = document.getElementById('imageSlideNotification');
+			projectElement.style.backgroundImage = `url(${imagesNotifications[currentImageIndexNotification]})`;
+    }
+    
+    // Show the next image
+    document.getElementById('nextImageNotification').addEventListener('click', () => {
+			currentImageIndexNotification = (currentImageIndexNotification + 1) % imagesNotifications.length; // Loop back to first image
+			updateBackgroundImageNotification();
+    });
+    
+    // Show the previous image
+    document.getElementById('prevImageNotification').addEventListener('click', () => {
+			currentImageIndexNotification = (currentImageIndexNotification - 1 + imagesNotifications.length) % imagesNotifications.length; // Loop back to last image
+			updateBackgroundImageNotification();
+    });
+	</script>
+
+	<script>
+		// List of image URLs for sliding
+		const imagesCredits = [
+			'images/credit-2.png',
+			'images/credit-3.png',
+			'images/credit-4.png',
+			'images/credit-5.png',
+			'images/credit-6.png',
+			'images/credit-7.png',
+			'images/credit-8.png',
+		];
+		
+		let currentImageIndexCredits = 0; // Start with the first image
+		
+		// Update background image function
+		function updateBackgroundImageCredits() {
+			const projectElement = document.getElementById('imageSlideCredit');
+			projectElement.style.backgroundImage = `url(${imagesCredits[currentImageIndexCredits]})`;
+		}
+		
+		// Show the next image
+		document.getElementById('nextImageCredit').addEventListener('click', () => {
+			currentImageIndexCredits = (currentImageIndexCredits + 1) % imagesCredits.length; // Loop back to first image
+			updateBackgroundImageCredits();
+		});
+		
+		// Show the previous image
+		document.getElementById('prevImageCredit').addEventListener('click', () => {
+			currentImageIndexCredits = (currentImageIndexCredits - 1 + imagesCredits.length) % imagesCredits.length; // Loop back to last image
+			updateBackgroundImageCredits();
+		});
+	</script>
 
   <style>
     .skills-table {
